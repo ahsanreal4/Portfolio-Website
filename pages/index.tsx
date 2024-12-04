@@ -1,18 +1,18 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
 
-import { NAV_LINKS } from '@components/Navbar/NavLinks'
-import { USER } from 'common/constants/User'
+import { NAV_LINKS } from "../common/components/Navbar/NavLinks";
+import { USER } from "../common/constants/User";
 
-import Navbar from '@components/Navbar/Navbar'
-import Footer from '@components/Footer/Footer'
-import useGetCurrentPage from 'hooks/useGetCurrentPage'
+import Navbar from "../common/components/Navbar/Navbar";
+import Footer from "../common/components/Footer/Footer";
+import useGetCurrentPage from "../hooks/useGetCurrentPage";
 
 const Home: NextPage = () => {
-  const { currentPage, setCurrentPage, getPage } = useGetCurrentPage()
+  const { currentPage, setCurrentPage, getPage } = useGetCurrentPage();
 
   return (
     <>
-      <div className='main-wrapper'>
+      <div className="main-wrapper">
         <Navbar
           currentPage={currentPage}
           setCurrentPage={setCurrentPage}
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <Footer text={USER.Footer.text} />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
