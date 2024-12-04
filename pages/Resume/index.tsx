@@ -1,7 +1,7 @@
 import { USER } from "../../common/constants/User";
 
-import ResumeHeader from "./components/Header/Header";
-import ResumeInfo from "./components/ResumeInfo/ResumeInfo";
+import ResumeHeader from "../../common/components/Resume/Header/Header";
+import ResumeInfo from "../../common/components/Resume/ResumeInfo/ResumeInfo";
 
 const Resume = () => (
   <>

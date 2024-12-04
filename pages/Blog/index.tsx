@@ -1,6 +1,6 @@
 import { USER } from "../../common/constants/User";
-import Blogs from "./components/Blogs/Blogs";
-import BlogHeader from "./components/Header/Header";
+import Blogs from "../../common/components/Blog/Blogs/Blogs";
+import BlogHeader from "../../common/components/Blog/Header/Header";
 
 const Blog = () => (
   <>

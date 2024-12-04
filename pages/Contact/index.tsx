@@ -1,13 +1,16 @@
-import { NextPage } from 'next'
-import GetInTouch from './GetInTouch/GetInTouch'
-import ContactHeader from './Header/Header'
-import { IContactProps } from './index.types'
+import { NextPage } from "next";
+import GetInTouch from "../../common/components/Contact/GetInTouch/GetInTouch";
+import ContactHeader from "../../common/components/Contact/Header/Header";
+
+export interface IContactProps {
+  setCurrentPage: React.Dispatch<number>;
+}
 
 const Contact: NextPage<IContactProps> = ({ setCurrentPage }) => (
   <>
     <ContactHeader />
     <GetInTouch setCurrentPage={setCurrentPage} />
   </>
-)
+);
 
-export default Contact
+export default Contact;

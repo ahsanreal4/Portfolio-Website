@@ -1,12 +1,12 @@
 import { UserSocialLink } from "./UserSocialLink";
-import { FeaturedProject } from "../pages/AboutMe/components/FeaturedProjects/FeaturedProjects.types";
-import { ProgrammingLanguage } from "../pages/AboutMe/components/ProgrammingLanguages/ProgrammingLanguages.types";
-import { Testimonial } from "../pages/AboutMe/components/Testimonials/Testimonials.types";
+import { FeaturedProject } from "../common/components/AboutMe/FeaturedProjects/FeaturedProjects.types";
+import { ProgrammingLanguage } from "../common/components/AboutMe/ProgrammingLanguages/ProgrammingLanguages.types";
+import { Testimonial } from "../common/components/AboutMe/Testimonials/Testimonials.types";
 import { Feature } from "./Feature";
 import { Package } from "./Package";
 import { Question } from "./Question";
 import { Project } from "./Project";
-import { IResumeInfoProps } from "../pages/Resume/components/ResumeInfo/ResumeInfo.types";
+import { IResumeInfoProps } from "../common/components/Resume/ResumeInfo/ResumeInfo.types";
 import { Blog } from "./Blog";
 
 export interface User {

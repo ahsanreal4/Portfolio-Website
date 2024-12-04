@@ -1,8 +1,11 @@
 import { USER } from "../../common/constants/User";
 import { NextPage } from "next";
-import PortfolioHeader from "./components/Header/Header";
-import ProjectsList from "./components/ProjectsList/ProjectsList";
-import { IPortfolioProps } from "./index.types";
+import PortfolioHeader from "../../common/components/Portfolio/Header/Header";
+import ProjectsList from "../../common/components/Portfolio/ProjectsList/ProjectsList";
+
+export interface IPortfolioProps {
+  setCurrentPage: React.Dispatch<number>;
+}
 
 const Portfolio: NextPage<IPortfolioProps> = ({ setCurrentPage }) => {
   return (

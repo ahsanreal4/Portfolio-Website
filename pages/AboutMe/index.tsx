@@ -1,13 +1,16 @@
 import { USER } from "../../common/constants/User";
 
-import Testimonials from "./components/Testimonials/Testimonials";
-import Header from "../AboutMe/components/Header/Header";
+import Testimonials from "../../common/components/AboutMe/Testimonials/Testimonials";
+import Header from "../../common/components/AboutMe/Header/Header";
 import LineSeperator from "../../common/components/LineSeperator";
-import ProgrammingLanguages from "./components/ProgrammingLanguages/ProgrammingLanguages";
-import FeaturedProjects from "./components/FeaturedProjects/FeaturedProjects";
+import ProgrammingLanguages from "../../common/components/AboutMe/ProgrammingLanguages/ProgrammingLanguages";
+import FeaturedProjects from "../../common/components/AboutMe/FeaturedProjects/FeaturedProjects";
 import { NextPage } from "next";
-import { IAboutMeProps } from "./index.types";
-import LatestBlogs from "./components/LatestBlogs/LatestBlogs";
+import LatestBlogs from "../../common/components/AboutMe/LatestBlogs/LatestBlogs";
+
+interface IAboutMeProps {
+  setCurrentPage: React.Dispatch<number>;
+}
 
 const AboutMe: NextPage<IAboutMeProps> = ({ setCurrentPage }) => {
   return (

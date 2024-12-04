@@ -1,5 +1,5 @@
-import { FeaturedProject } from "../pages/AboutMe/components/FeaturedProjects/FeaturedProjects.types";
-import { Testimonial } from "../pages/AboutMe/components/Testimonials/Testimonials.types";
+import { FeaturedProject } from "../common/components/AboutMe/FeaturedProjects/FeaturedProjects.types";
+import { Testimonial } from "../common/components/AboutMe/Testimonials/Testimonials.types";
 
 export interface ProjectResult {
   efficiency: number;

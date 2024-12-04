@@ -1,15 +1,12 @@
 import { USER_SOCIAL_LINKS } from "../components/Navbar/UserSocialLinks";
-import { FEATURED_PROJECTS } from "../../pages/AboutMe/constants/FeaturedProjects";
-import { PROGRAMMING_LANGUAGES } from "../../pages/AboutMe/constants/ProgrammingLanguages";
-import { TESTIMONIALS } from "../../pages/AboutMe/constants/Testimonials";
-import { BLOGS } from "../../pages/Blog/constants/Blogs";
-import { PROJECTS } from "../../pages/Portfolio/constants/Projects";
-import { RESUME_INFO_PROPS } from "../../pages/Resume/constants/ResumeInfo";
-import { QUESTIONS } from "../../pages/Services/constants/FAQ";
-import {
-  FEATURES,
-  SERVICE_PACKAGES,
-} from "../../pages/Services/constants/Packages";
+import { FEATURED_PROJECTS } from "./AboutMe/FeaturedProjects";
+import { PROGRAMMING_LANGUAGES } from "./AboutMe/ProgrammingLanguages";
+import { TESTIMONIALS } from "./AboutMe/Testimonials";
+import { BLOGS } from "./Blogs";
+import { PROJECTS } from "./Portfolio/Projects";
+import { RESUME_INFO_PROPS } from "./ResumeInfo";
+import { QUESTIONS } from "./Services/FAQ";
+import { FEATURES, SERVICE_PACKAGES } from "./Services/Packages";
 import { User } from "../../models/User";
 
 export const USER: User = {
