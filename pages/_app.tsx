@@ -5,8 +5,6 @@ import "../styles/globals.scss";
 import "../styles/scss/theme-4.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const addLinks = () => {};
-
   const addScripts = () => (
     <>
       <Script id="font-awesome-cdn" src="assets/fontawesome/js/all.js" />
@@ -15,7 +13,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      {addLinks()}
       {addScripts()}
       <Component {...pageProps} />
     </>
