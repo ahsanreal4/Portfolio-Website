@@ -1,5 +1,5 @@
-import { Blog } from 'models/Blog'
+import { Blog } from "../../../../models/Blog";
 
 export interface ILatestBlogsProps {
-  blogs: Blog[]
+  blogs: Blog[];
 }
