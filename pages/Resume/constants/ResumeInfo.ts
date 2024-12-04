@@ -15,6 +15,7 @@ export const RESUME_INFO_PROPS: IResumeInfoProps = {
         "Improved streaming latency by 35% by optimizing backend server response times by implementing Event Driven Architecture using Apache Kafka.",
         "Optimized database queries to reduce database response time by 40%, significantly improving data retrieval and application speed.",
       ],
+      description: "",
     },
     {
       title: "Full Stack Developer",
@@ -28,6 +29,7 @@ export const RESUME_INFO_PROPS: IResumeInfoProps = {
         "Implemented Spring Reactive Programming in an Ecommerce project for non-blocking data streams, improving application efficiency and enabling concurrent processing of requests.",
         "Collaborated with cross-functional teams in an Agile environment, following Test-Driven Development (TDD) practices and utilizing JUnit and Mockito for unit and integration testing.",
       ],
+      description: "",
     },
     {
       title: "Full Stack Developer",
@@ -40,6 +42,7 @@ export const RESUME_INFO_PROPS: IResumeInfoProps = {
         "Faced different challenges in making tons of user roles and permissions as the project demanded creation of different types of CRUD operations for different users.",
         "Created a system to create and download excel files generated from backend that consists of project's timeline and data.",
       ],
+      description: "",
     },
     {
       title: "Full Stack Intern",
@@ -49,6 +52,7 @@ export const RESUME_INFO_PROPS: IResumeInfoProps = {
       points: [
         "Worked as Full stack intern on a Job Portal project named Mentornment",
       ],
+      description: "",
     },
   ],
   technicalSkills: [
